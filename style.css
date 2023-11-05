@@ -1,0 +1,185 @@
+/* Navbar styles */
+.navbar {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #007bff;
+}
+
+.TitText {
+    color: wheat;
+}
+
+.bb {
+    background-color: goldenrod;
+}
+
+.son {
+    text-align: center;
+    width: 20.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: lightgray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-container2 {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: rgb(233, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.son {
+    text-align: center;
+    width: 10.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.son {
+    text-align: center;
+    width: 5.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div7 {
+    background-color: rgb(56, 52, 52);
+    background-image: url('imgs/map-image.png');
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: white;
+}
+
+.father {
+}
+
+.father3 {
+}
+
+.son {
+    float: left;
+    width: 30%;
+}
+
+.div3port {
+    width: 350px;
+    background-color: white;
+}
+
+.div3ll {
+    color: rgb(151, 146, 146);
+}
+
+.div4 {
+    background-color: white;
+    text-align: center;
+}
+
+.div5 {
+    background-color: rgb(241, 238, 238);
+    text-align: center;
+    color: black;
+}
+
+.div1 {
+    background-color: rgb(126, 86, 26);
+    background-image: url('imgs/header-bg.jpg');
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}
+
+.div2 {
+    background-color: white;
+    text-align: center;
+    color: black;
+}
+
+.div3 {
+    background-color: rgb(241, 238, 238);
+    text-align: center;
+    color: black;
+}
+
+.clrfix {
+    clear: both;
+}
+
+.centered-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.sentence-box {
+    background-color: goldenrod;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sentence {
+    font-size: 24px;
+    color: black;
+}
